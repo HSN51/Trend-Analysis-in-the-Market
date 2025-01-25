@@ -1,0 +1,27 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>TradingView Chart: AAPL (1y, 1D)</title>
+        <script src="https://s3.tradingview.com/tv.js"></script>
+    </head>
+    <body>
+        <h2 style="text-align:center;">AAPL Trend Analysis (1y, 1D)</h2>
+        <div id="chart" style="width: 800px; height: 500px; margin: auto;"></div>
+        <script>
+            new TradingView.widget({
+                "container_id": "chart",
+                "symbol": "AAPL",
+                "interval": "1D",
+                "theme": "light",
+                "style": "1",
+                "locale": "en",
+                "toolbar_bg": "#f1f3f6",
+                "enable_publishing": false,
+                "allow_symbol_change": true,
+                "autosize": true
+            });
+        </script>
+    </body>
+    </html>
+    
