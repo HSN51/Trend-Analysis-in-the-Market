@@ -1,0 +1,1 @@
+# Trend-Analysis-in-the-Market
